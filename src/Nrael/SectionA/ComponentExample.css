@@ -1,0 +1,11 @@
+.component-example {
+  background-color: aqua;
+  width: 200px;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.component-example p {
+  color: chocolate;
+}
