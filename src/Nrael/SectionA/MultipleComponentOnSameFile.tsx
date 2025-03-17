@@ -1,4 +1,5 @@
 import "./ComponentExample.css";
+import "./MultipleComponentOnSameFile.css";
 
 function MultipleComponentOnSameFile() {
   return (
@@ -11,7 +12,9 @@ function MultipleComponentOnSameFile() {
         borderRadius: "6px",
       }}
     >
-      <h1 style={{ textAlign: "center" }}>This is the Parent Component</h1>
+      <h1 style={{ textAlign: "center" }} className="font-26">
+        This is the Parent Component
+      </h1>
       <AnotherComponent />
       <AnotherComponent />
     </div>
