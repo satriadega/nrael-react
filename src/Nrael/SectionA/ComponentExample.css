@@ -3,9 +3,10 @@
   width: 200px;
   padding: 20px;
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .component-example p {
   color: chocolate;
+  text-align: center;
 }
