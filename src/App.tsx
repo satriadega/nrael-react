@@ -1,7 +1,9 @@
 import "./App.css";
 import ComponentExample from "./Nrael/SectionA/ComponentExample";
 import JsxExample from "./Nrael/SectionA/JsxExample";
-import MultipleComponentOnSameFile from "./Nrael/SectionA/MultipleComponentOnSameFile";
+import MultipleComponentOnSameFile, {
+  AnotherComponent,
+} from "./Nrael/SectionA/MultipleComponentOnSameFile";
 
 const stylingJsxExample: React.CSSProperties = {
   width: "max-content",
@@ -19,6 +21,7 @@ function App() {
         {/* loading a component */}
         <ComponentExample />
         <MultipleComponentOnSameFile />
+        <AnotherComponent />
         <div style={stylingJsxExample}>
           <h1 style={{ fontSize: "26px", color: "white" }}>JSX Example</h1>
           <JsxExample />

@@ -1,6 +1,8 @@
 import "./ComponentExample.css";
 import "./MultipleComponentOnSameFile.css";
 
+//  A file can only have one default export, but it can have numerous named exports!
+
 function MultipleComponentOnSameFile() {
   return (
     <div
@@ -21,7 +23,7 @@ function MultipleComponentOnSameFile() {
   );
 }
 
-function AnotherComponent() {
+export function AnotherComponent() {
   return (
     <>
       <div className="component-example">
