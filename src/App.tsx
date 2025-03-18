@@ -1,5 +1,6 @@
 import "./App.css";
 import ComponentExample from "./Nrael/SectionA/ComponentExample";
+import JSXCurlyBraces from "./Nrael/SectionA/JSXCurlyBraces";
 import JsxExample from "./Nrael/SectionA/JsxExample";
 import MultipleComponentOnSameFile, {
   AnotherComponent,
@@ -26,7 +27,7 @@ function App() {
           <h1 style={{ fontSize: "26px", color: "white" }}>JSX Example</h1>
           <JsxExample />
         </div>
-        ;
+        <JSXCurlyBraces />;
       </div>
     </>
   );
