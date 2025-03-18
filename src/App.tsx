@@ -5,6 +5,9 @@ import JsxExample from "./Nrael/SectionA/JsxExample";
 import MultipleComponentOnSameFile, {
   AnotherComponent,
 } from "./Nrael/SectionA/MultipleComponentOnSameFile";
+import PassingPropsToComponent, {
+  PassingPropsToComponentC2,
+} from "./Nrael/SectionA/PassingPropsToComponent";
 
 const stylingJsxExample: React.CSSProperties = {
   width: "max-content",
@@ -28,6 +31,12 @@ function App() {
           <JsxExample />
         </div>
         <JSXCurlyBraces />;
+        <PassingPropsToComponent
+          props1={{ imageId: "1", name: "example1" }}
+          props2={100}
+        />
+        <PassingPropsToComponentC2 props1={"C2"} props2={99} />
+        <PassingPropsToComponentC2 props1={"C3"} />
       </div>
     </>
   );

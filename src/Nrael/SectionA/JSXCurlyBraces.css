@@ -1,7 +1,12 @@
 .div-bgc-purple {
-  background-color: purple;
-  padding: 8px;
+  background-color: chocolate;
+  padding: 20px;
   border-radius: 6px;
   width: fit-content;
   margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
 }
