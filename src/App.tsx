@@ -5,6 +5,7 @@ import JsxExample from "./Nrael/SectionA/JsxExample";
 import MultipleComponentOnSameFile, {
   AnotherComponent,
 } from "./Nrael/SectionA/MultipleComponentOnSameFile";
+import PassingJSXToChildren from "./Nrael/SectionA/PassingJSXToChildren/PassingJSXToChildren";
 import PassingPropsToComponent, {
   PassingPropsToComponentC2,
 } from "./Nrael/SectionA/PassingPropsToComponent";
@@ -37,6 +38,7 @@ function App() {
         />
         <PassingPropsToComponentC2 props1={"C2"} props2={99} />
         <PassingPropsToComponentC2 props1={"C3"} />
+        <PassingJSXToChildren />
       </div>
     </>
   );

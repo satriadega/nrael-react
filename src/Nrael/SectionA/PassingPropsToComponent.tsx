@@ -50,3 +50,11 @@ export function PassingPropsToComponentC3(props: PassingProps) {
     </>
   );
 }
+
+// function Profile(props) {
+//   return (
+//     <div className="card">
+//       <Avatar {...props} />
+//     </div>
+//   );
+// }
