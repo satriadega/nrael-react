@@ -1,5 +1,6 @@
 import "./App.css";
 import ComponentExample from "./Nrael/SectionA/ComponentExample";
+import ConditionalRendering from "./Nrael/SectionA/ConditionalRendering";
 import JSXCurlyBraces from "./Nrael/SectionA/JSXCurlyBraces";
 import JsxExample from "./Nrael/SectionA/JsxExample";
 import MultipleComponentOnSameFile, {
@@ -39,6 +40,7 @@ function App() {
         <PassingPropsToComponentC2 props1={"C2"} props2={99} />
         <PassingPropsToComponentC2 props1={"C3"} />
         <PassingJSXToChildren />
+        <ConditionalRendering />
       </div>
     </>
   );
