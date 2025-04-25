@@ -10,6 +10,9 @@ import PassingJSXToChildren from "./Nrael/SectionA/PassingJSXToChildren/PassingJ
 import PassingPropsToComponent, {
   PassingPropsToComponentC2,
 } from "./Nrael/SectionA/PassingPropsToComponent";
+import RenderingLists, {
+  FilteringLists,
+} from "./Nrael/SectionA/RenderingLists";
 
 const stylingJsxExample: React.CSSProperties = {
   width: "max-content",
@@ -41,6 +44,8 @@ function App() {
         <PassingPropsToComponentC2 props1={"C3"} />
         <PassingJSXToChildren />
         <ConditionalRendering />
+        <RenderingLists />
+        <FilteringLists />
       </div>
     </>
   );
